@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-import re
-import sys
+
 
 file1 = open('day10.txt', 'r')
 Lines = file1.readlines()
