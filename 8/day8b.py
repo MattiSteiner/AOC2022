@@ -73,8 +73,6 @@ for row in range(1,len(forrest)-1):
 			score *= len(f_down) if len(f_down)>0 else 1
 		sol = 0
 
-		print(row,collumn,forrest[row][collumn], score)
-
 		if score > max_score:
 			max_score = score
 		score = 1
